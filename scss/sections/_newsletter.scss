@@ -1,0 +1,20 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+@include media-breakpoint-up(sm) {
+  .news-input {
+    width: 50%;
+  }
+}
+
+.newsletter {
+  @include gradient;
+}
+
+.instructors {
+  @include gradient;
+}
+
+.box-mid {
+  @include gradient;
+}

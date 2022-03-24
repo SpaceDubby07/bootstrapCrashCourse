@@ -1,0 +1,22 @@
+@use "../custom" as *;
+
+// THESE ARE BASICALLY JUST REUSABLE PIECES OF CSS
+
+// GRADIENT MIXIN
+@mixin gradient {
+  background: linear-gradient(to right, rgba($one, 0.85), rgba($two, 1));
+}
+
+// ABSOLUTE CENTER
+@mixin absoluteCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+// transition for portfolio
+@mixin transitionProperty {
+  transition-duration: 1000ms;
+  transition-property: all;
+}

@@ -1,0 +1,8 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+@include media-breakpoint-down(lg) {
+  .fix-height {
+    padding: 45px 0 0 0;
+  }
+}
